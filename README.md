@@ -12,4 +12,5 @@ git push
 
 //extensoes 
 git-graph -> rastrea meu repositorio
+live server -> para nao precisar atualizar pagina sempre
 
