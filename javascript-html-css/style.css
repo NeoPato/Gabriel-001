@@ -1,0 +1,21 @@
+.CabDiv{
+    background-color: aqua;
+}
+.TelaPrincipalDiv{
+    background-color: bisque;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 30px;
+    margin: 21px 21px 21px 21px;
+}
+.labelPersoDiv{
+    display: flex;
+    flex-direction: column;
+}
+.labelPersoDiv2{
+    display: flex;
+    flex-direction: column;
+}
