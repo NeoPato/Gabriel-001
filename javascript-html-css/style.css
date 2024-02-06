@@ -1,12 +1,12 @@
 *{
-    padding: 0;
-    margin: 0;
+    padding: 3px;
+    margin: 1px;
 }
 .CabDiv{
     background-color:azure;
     text-align: center;
     justify-content: center;
-    width: 100vw;
+    width: 95vw;
     padding: 20px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
@@ -24,31 +24,26 @@
 .SomaDiv{
     background-color: antiquewhite;
     border-radius: 10px;
-    padding: 20px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 .SubDiv{
     background-color: antiquewhite;
     border-radius: 10px;
-    padding: 20px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 .DivisaoDiv{
     background-color: antiquewhite;
     border-radius: 10px;
-    padding: 20px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 .MultDiv{
     background-color: antiquewhite;
     border-radius: 10px;
-    padding: 20px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 .MediaDiv{
     background-color: antiquewhite;
     border-radius: 10px;
-    padding: 20px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 button{
