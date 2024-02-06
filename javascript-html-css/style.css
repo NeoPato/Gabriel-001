@@ -74,3 +74,9 @@ h2{
     font-family: 'Playfair Display', serif;}
 label{    
     font-family: 'Playfair Display', serif;}
+.condicional{
+    display: none;
+}
+.condicionalNegado{
+    display: none;
+}

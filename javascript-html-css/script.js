@@ -35,7 +35,25 @@ function media(){
     var num2 = document.getElementById("num10").valueAsNumber;
     var num3 = document.getElementById("num11").valueAsNumber;
     var res = (num1+num2+num3)/3;
-    
+    var x = document.getElementById("resMedia");
+    var aprovado = document.getElementById("condicional");
+    var reprovado = document.getElementById("condicionalNegado");
+
+    if(res < 7){
+        x.style.color = "red";
+        reprovado.style.display = "black";
+        reprovado.style.color = "red";
+        reprovado.style.display = "flex";
+        aprovado.style.display = "none";
+    }
+    if(res >= 7){
+        x.style.color = "green";
+        aprovado.style.display = "black";
+        aprovado.style.color = "green";
+        aprovado.style.display = "flex";
+        reprovado.style.display = "none";
+
+    }
     console.log(res);
     document.getElementById("resMedia").textContent = res.toFixed(2);
 }
